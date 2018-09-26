@@ -43,6 +43,9 @@ monikerRange: "= azuresqldb-current || = sqlallproducts-allversions"
 |max_worker_percent|**decimal (5,2)**|Maximum concurrent workers (requests) in percentage of the limit of the database’s service tier.|  
 |max_session_percent|**decimal (5,2)**|Maximum concurrent sessions in percentage of the limit of the database’s service tier.|  
 |dtu_limit|**int**|Current max database DTU setting for this database during this interval. For databases using the vCore-based model, this column is NULL.|
+|avg_login_rate_percent|**decimal (5,2)**|Someone in microsoft need to tell what that column means.|
+|avg_instance_cpu_percent|**decimal (5,2)**|Someone in microsoft need to tell what that column means.|
+|avg_instance_memory_percent|**decimal (5,2)**|Someone in microsoft need to tell what that column means.|
 |cpu_limit|**decimal (5,2)**|Number of vCores for this database during this interval. For databases using the DTU-based model, this column is NULL.|
 |||
   
